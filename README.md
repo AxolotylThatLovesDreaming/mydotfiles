@@ -1,4 +1,6 @@
-<h1 aligh="center">mydotfiles</h1>
+<div align="center">
+# `~/mydotfiles`
+</div>
 
 ![App Screenshot](.assets/screenshot.png)
 My config files for niri.
