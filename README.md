@@ -15,9 +15,11 @@ My config files for niri.
 
 ## Setup Guide
 Config files are in `.configfiles` and scripts are in `.localfiles`. Run the following commands to move them into their respective directories:
-```mkdir -p ~/.config ~/.local/bin
+```
+mkdir -p ~/.config ~/.local/bin
 git clone https://github.com/AxolotylThatLovesDreaming/mydotfiles
 cd mydotfiles
-cp -a /.configfiles/ ~/.config && cp -a /.localfiles/ ~/.local```
+cp -a /.configfiles/ ~/.config && cp -a /.localfiles/ ~/.local
+```
 
 - The End -
