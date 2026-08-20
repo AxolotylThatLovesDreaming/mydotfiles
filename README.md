@@ -1,7 +1,7 @@
 <h1 align="center"><code>~\mydotfiles</code></h1>
 
 ![App Screenshot](.assets/screenshot.png)
-My config files for niri.
+My config files for niri. Given below is a guide on how to install them to your own system. Do make sure you actually have the required pieces of software first. I have listed what I use down below. With that said, enjoyyy~
 
 ## What I use
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
@@ -22,3 +22,5 @@ cd mydotfiles
 cp -a /.configfiles/ ~/.config && cp -a /.localfiles/ ~/.local
 ```
 
+## Author
+@AxolotylThatLovesDreaming
