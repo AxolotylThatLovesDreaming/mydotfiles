@@ -13,6 +13,6 @@ Here you can find my configuration files for niri.
 - Launchers: Rofi
 
 ## Screenshots
-![App Screenshot](./assets/screenshot.png)
+![App Screenshot](.assets/screenshot.png)
 
 
