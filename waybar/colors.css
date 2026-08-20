@@ -1,0 +1,52 @@
+/* ~/.config/matugen/templates/style.css */
+
+/* Dynamic Matugen Base Colors */
+@define-color background #0f1512;
+@define-color background-light #232926;
+@define-color foreground #ffffff;
+@define-color black #393f3b;
+@define-color red #ffd2cc;
+@define-color green #bbe2f6;
+@define-color yellow #c9e2d4;
+@define-color blue #a1ecca;
+@define-color magenta #dee4de;
+@define-color cyan #abb4ae;
+@define-color white #d5dfd8;
+@define-color orange #ff5449;
+
+/* Module-specific colors */
+@define-color workspaces-color @foreground;
+@define-color workspaces-focused-bg @green;
+@define-color workspaces-focused-fg @cyan;
+@define-color workspaces-urgent-bg @red;
+@define-color workspaces-urgent-fg @black;
+
+/* Text and border colors for modules */
+@define-color mode-color @orange;
+@define-color group-hardware-color @blue;
+@define-color group-session-color @red;
+@define-color clock-color @blue;
+@define-color cpu-color @green;
+@define-color memory-color @magenta;
+@define-color temperature-color @yellow;
+@define-color temperature-critical-color @red;
+@define-color battery-color @cyan;
+@define-color battery-charging-color @green;
+@define-color battery-warning-color @yellow;
+@define-color battery-critical-color @red;
+@define-color network-color @blue;
+@define-color network-disconnected-color @red;
+@define-color pulseaudio-color @orange;
+@define-color pulseaudio-muted-color @red;
+@define-color wireplumber-color @orange;
+@define-color wireplumber-muted-color @red;
+@define-color backlight-color @yellow;
+@define-color disk-color @cyan;
+@define-color updates-color @orange;
+@define-color quote-color @green;
+@define-color idle-inhibitor-color @foreground;
+@define-color idle-inhibitor-active-color @red;
+@define-color power-profiles-daemon-color @cyan;
+@define-color power-profiles-daemon-performance-color @red;
+@define-color power-profiles-daemon-balanced-color @yellow;
+@define-color power-profiles-daemon-power-saver-color @green;

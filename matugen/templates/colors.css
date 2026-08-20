@@ -1,0 +1,52 @@
+/* ~/.config/matugen/templates/style.css */
+
+/* Dynamic Matugen Base Colors */
+@define-color background {{colors.surface.default.hex}};
+@define-color background-light {{colors.surface_container.default.hex}};
+@define-color foreground {{colors.on_surface.default.hex}};
+@define-color black {{colors.surface_container_highest.default.hex}};
+@define-color red {{colors.error.default.hex}};
+@define-color green {{colors.tertiary.default.hex}};
+@define-color yellow {{colors.secondary.default.hex}};
+@define-color blue {{colors.primary.default.hex}};
+@define-color magenta {{colors.inverse_surface.default.hex}};
+@define-color cyan {{colors.outline.default.hex}};
+@define-color white {{colors.on_surface_variant.default.hex}};
+@define-color orange {{colors.error_container.default.hex}};
+
+/* Module-specific colors */
+@define-color workspaces-color @foreground;
+@define-color workspaces-focused-bg @green;
+@define-color workspaces-focused-fg @cyan;
+@define-color workspaces-urgent-bg @red;
+@define-color workspaces-urgent-fg @black;
+
+/* Text and border colors for modules */
+@define-color mode-color @orange;
+@define-color group-hardware-color @blue;
+@define-color group-session-color @red;
+@define-color clock-color @blue;
+@define-color cpu-color @green;
+@define-color memory-color @magenta;
+@define-color temperature-color @yellow;
+@define-color temperature-critical-color @red;
+@define-color battery-color @cyan;
+@define-color battery-charging-color @green;
+@define-color battery-warning-color @yellow;
+@define-color battery-critical-color @red;
+@define-color network-color @blue;
+@define-color network-disconnected-color @red;
+@define-color pulseaudio-color @orange;
+@define-color pulseaudio-muted-color @red;
+@define-color wireplumber-color @orange;
+@define-color wireplumber-muted-color @red;
+@define-color backlight-color @yellow;
+@define-color disk-color @cyan;
+@define-color updates-color @orange;
+@define-color quote-color @green;
+@define-color idle-inhibitor-color @foreground;
+@define-color idle-inhibitor-active-color @red;
+@define-color power-profiles-daemon-color @cyan;
+@define-color power-profiles-daemon-performance-color @red;
+@define-color power-profiles-daemon-balanced-color @yellow;
+@define-color power-profiles-daemon-power-saver-color @green;

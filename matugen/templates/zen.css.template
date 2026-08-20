@@ -1,0 +1,19 @@
+:root {
+    --zen-primary-color: {{colors.primary.default.hex}} !important;
+    --zen-primary-color-rgb: {{colors.primary.default.hex}}, {{colors.primary.default.hex}}, {{colors.primary.default.hex}} !important;
+    
+    --browser-window-background-color: {{colors.surface.default.hex}} !important;
+    --toolbar-bgcolor: {{colors.surface_container.default.hex}} !important;
+    --tabpanel-background-color: {{colors.surface.default.hex}} !important;
+    
+    --zen-colors-tertiary: {{colors.surface_container_highest.default.hex}} !important;
+    --input-bgcolor: {{colors.surface_container_low.default.hex}} !important;
+    --input-color: {{colors.on_surface.default.hex}} !important;
+    
+    --identity-color-purple: {{colors.primary.default.hex}} !important;
+}
+
+#nav-bar {
+    background-color: var(--toolbar-bgcolor) !important;
+    box-shadow: none !important;
+}

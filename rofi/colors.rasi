@@ -1,0 +1,6 @@
+* {
+    transparent: #00000000;
+    bg:          #0f1512;
+    bg2:         #a1ecca;
+    fg:          #ffffff;
+}

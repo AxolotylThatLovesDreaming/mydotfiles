@@ -1,0 +1,24 @@
+[config]
+contrast = 0.5
+
+[templates.zen_browser]
+input_path='~/.config/matugen/templates/zen.css.template'
+output_path='~/.config/zen/rol8ff61.Default (release)/chrome/matugen.css'
+
+[templates.niri]
+input_path='~/.config/matugen/templates/niri-colors.kdl'
+output_path='~/.config/niri/colors.kdl'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook  = 'pkill -SIGUSR2 waybar'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/kitty-colors.conf'
+post_hook = 'kitty @ set-colors --all ~/.config/kitty/kitty-colors.conf'
