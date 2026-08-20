@@ -1,0 +1,24 @@
+options="Shutdown\nReboot\nSuspend\nLogout\nLock"
+
+chosen=$(echo -e "$options" | rofi -dmenu -i -p "" -theme-str 'window {width: 15%;}')
+
+case "$chosen" in
+	Shutdown)
+		systemctl poweroff
+		;;
+	Reboot)
+		systemctl reboot
+		;;
+	Suspend)
+		systemctl suspend
+		;;
+	Logout)
+		niri msg action quit
+		;;
+	Lock)
+		swaylock
+		;;
+	*)
+		exit
+		;;
+esac
