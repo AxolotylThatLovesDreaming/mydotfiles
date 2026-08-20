@@ -21,6 +21,7 @@ git clone https://github.com/AxolotylThatLovesDreaming/mydotfiles
 cd mydotfiles
 cp -a /.configfiles/ ~/.config && cp -a /.localfiles/ ~/.local
 ```
+Note: the `fish` config provided is redundant, since I use cachyos's configuration for fish. You can find it [here](https://github.com/CachyOS/cachyos-fish-config/).
 
 ## Author
 @AxolotylThatLovesDreaming
