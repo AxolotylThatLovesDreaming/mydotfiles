@@ -22,4 +22,3 @@ cd mydotfiles
 cp -a /.configfiles/ ~/.config && cp -a /.localfiles/ ~/.local
 ```
 
-- The End -
