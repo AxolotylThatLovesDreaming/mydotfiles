@@ -22,3 +22,7 @@ post_hook  = 'pkill -SIGUSR2 waybar'
 input_path = '~/.config/matugen/templates/kitty.conf'
 output_path = '~/.config/kitty/kitty-colors.conf'
 post_hook = 'kitty @ set-colors --all ~/.config/kitty/kitty-colors.conf'
+
+[templates.swaylock]
+input_path = '~/.config/matugen/templates/swaylock.conf'
+output_path = '~/.config/swaylock/config'
