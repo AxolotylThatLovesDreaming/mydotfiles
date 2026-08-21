@@ -20,9 +20,13 @@ $character"""
 
 add_newline = true
 
+[character]
+success_symbol = '[╰─](bold green)' 
+error_symbol = '[╰─](bold red)' 
+
 [directory]
 style = 'bold fg:dark_blue'
-format = '[$path ]($style)'
+format = '[╭─](bold green) [$path ]($style)'
 truncation_length = 3
 truncation_symbol = '…/'
 truncate_to_repo = false
@@ -71,10 +75,6 @@ symbol = ' '
 style = 'orange'
 symbol = ' '
 
-[java]
-style = 'blue'
-symbol = "java "
-
 [ruby]
 style = 'blue'
 symbol = ' '
@@ -104,5 +104,3 @@ format = '[$symbol]($style)'
 min_time = 500
 style = 'fg:gray'
 format = '[$duration]($style)'
-
-

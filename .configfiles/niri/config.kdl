@@ -74,6 +74,7 @@ prefer-no-csd
 //[SRARTUP]
 spawn-at-startup "waybar"
 spawn-at-startup "awww-daemon"
+spawn-sh-at-startup "swayidle -w before-sleep 'swaylock -f'"
 
 
 //[MISC]

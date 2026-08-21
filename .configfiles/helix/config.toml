@@ -1,12 +1,13 @@
 theme = "rose_pine"
 
 [editor]
+line-number = "relative"
 cursorline = true
 bufferline = "multiple"
 scrolloff = 8
-true-color = false  
+true-color = true  
 undercurl = true
-# these are the engram kb layout homerow keys, which I use
+
 jump-label-alphabet = "hatesincludorkmjfxwypgvb"
 end-of-line-diagnostics = "error"
 rulers = [80, 120]
@@ -40,66 +41,5 @@ enable = true
 supersede-menu = true
 
 [editor.inline-diagnostics]
-cursor-line = "warning" # show warnings and errors on the cursorline inline
+cursor-line = "warning" 
 
-[keys.normal]
-X = "select_line_above"
-C-h = "jump_view_left"
-C-l = "jump_view_right"
-C-k = "page_cursor_half_up"
-C-j = "page_cursor_half_down"
-ret = "goto_word"
-tab = "move_parent_node_end"
-S-tab = "move_parent_node_start"
-
-[keys.insert]
-C-h = ["jump_view_left", "insert_mode"]
-C-l = ["jump_view_right", "insert_mode"]
-S-tab = "move_parent_node_start"
-
-[keys.select]
-ret = "extend_to_word"
-X = "select_line_above"
-tab = "extend_parent_node_end"
-S-tab = "extend_parent_node_start"
-
-[keys.normal.backspace]
-w = ":write-all"
-r = [":reload-all", ":config-reload"]
-# Yazi
-e = [
-  ':sh rm -f /tmp/unique-file',
-  ':insert-output yazi %{buffer_name} --chooser-file=/tmp/unique-file',
-  ':insert-output echo "\x1b[?1049h\x1b[?2004h" > /dev/tty',
-  ':open %sh{cat /tmp/unique-file}',
-  ':redraw',
-  ':set mouse false',
-  ':set mouse true',
-]
-# Lazygit
-g = [
-  ":write-all",
-  ":insert-output lazygit >/dev/tty",
-  ":redraw",
-  ":set mouse false",
-  ":set mouse true",
-  ":reload-all"
-]
-# k9s
-k = [
-  ":write-all",
-  ":insert-output k9s >/dev/tty",
-  ":redraw",
-  ":set mouse false",
-  ":set mouse true",
-  ":reload-all"
-]
-
-# Python commands
-[keys.normal.backspace.p]
-v = ':sh rm -rf .venv && python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt -r requirements-testing.txt'
-t = ':sh . .venv/bin/activate && python -m pytest'
-
-# Helm/Kubernetes commands
-[keys.normal.backspace.h]
-d = ':sh helm upgrade -i wes$(basename "$(pwd)" | sed "s/[-_]/ /g" | awk "{for(i=1;i<=NF;i++) printf substr(\$i,1,1)}") helm-charts/$(basename "$(pwd)" | tr "_" "-") -f intvalues.yaml --set image.tag=$(git rev-parse --abbrev-ref HEAD | tr "/" "_")'
