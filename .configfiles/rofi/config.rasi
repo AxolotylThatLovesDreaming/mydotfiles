@@ -2,6 +2,7 @@ configuration {
 	terminal: "kitty";
 	display-run: " ";
 	display-drun: "";
+	display-combi: "";
 	fixed-num-lines: false;
 }
 
@@ -77,7 +78,7 @@ element selected {
 }
 
 element-text {
-	background-color: @bg	;
+	background-color: @bg;
 	text-color: @fg;
 	padding: 0.25em 0.2em 0.25em 0.2em;
 	border: 0;

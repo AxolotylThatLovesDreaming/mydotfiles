@@ -1,27 +1,22 @@
-/* ~/.config/matugen/templates/style.css */
-
-/* Dynamic Matugen Base Colors */
-@define-color background #0f1512;
-@define-color background-light #232926;
+@define-color background #191113;
+@define-color background-light #2f2628;
 @define-color foreground #ffffff;
-@define-color black #393f3b;
+@define-color black #453b3d;
 @define-color red #ffd2cc;
-@define-color green #bbe2f6;
-@define-color yellow #c9e2d4;
-@define-color blue #a1ecca;
-@define-color magenta #dee4de;
-@define-color cyan #abb4ae;
-@define-color white #d5dfd8;
+@define-color green #ffd4b1;
+@define-color yellow #fad2db;
+@define-color blue #ffd0db;
+@define-color magenta #efdfe1;
+@define-color cyan #c0adb1;
+@define-color white #ecd7db;
 @define-color orange #ff5449;
 
-/* Module-specific colors */
 @define-color workspaces-color @foreground;
 @define-color workspaces-focused-bg @green;
 @define-color workspaces-focused-fg @cyan;
 @define-color workspaces-urgent-bg @red;
 @define-color workspaces-urgent-fg @black;
 
-/* Text and border colors for modules */
 @define-color mode-color @orange;
 @define-color group-hardware-color @blue;
 @define-color group-session-color @red;

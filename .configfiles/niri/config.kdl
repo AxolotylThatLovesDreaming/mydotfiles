@@ -2,7 +2,8 @@ include "colors.kdl"
 
 //[INPUTS]
 cursor {
-    xcursor-size 16
+    hide-when-typing
+    xcursor-size 24 
 }
 
 input {

@@ -1,21 +1,21 @@
-options="Shutdown\nReboot\nSuspend\nLogout\nLock"
+options="[1]Shutdown\n[2]Reboot\n[3]Suspend\n[4]Logout\n[5]Lock"
 
-chosen=$(echo -e "$options" | rofi -dmenu -i -p "" -theme-str 'window {width: 15%;}')
+chosen=$(echo -e "$options" | rofi -dmenu -i -p "" -theme-str 'inputbar {enabled: false;} window {width: 15%;}')
 
 case "$chosen" in
-	Shutdown)
+	[1]Shutdown)
 		systemctl poweroff
 		;;
-	Reboot)
+	[2]Reboot)
 		systemctl reboot
 		;;
-	Suspend)
+	[3]Suspend)
 		systemctl suspend
 		;;
-	Logout)
+	[4]Logout)
 		niri msg action quit
 		;;
-	Lock)
+	[5]Lock)
 		swaylock
 		;;
 	*)

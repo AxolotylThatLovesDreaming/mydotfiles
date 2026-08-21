@@ -11,9 +11,9 @@ indicator
 indicator-radius=100
 indicator-thickness=7
 
-inside-color=#191f1c88
-ring-color=#a1ecca
-key-hl-color=#bbe2f6
+inside-color=#241b1d88
+ring-color=#ffd0db
+key-hl-color=#ffd4b1
 line-color=00000000
 separator-color=00000000
 
@@ -23,13 +23,13 @@ text-ver-color=#ffffff
 text-clear-color=#ffffff
 text-caps-lock-color=#ffd2cc
 
-inside-ver-color=#232926cc
-ring-ver-color=#c9e2d4
+inside-ver-color=#2f2628cc
+ring-ver-color=#fad2db
 
 inside-wrong-color=#ff5449cc
 ring-wrong-color=#ffd2cc
 
-inside-clear-color=#7196a8cc
-ring-clear-color=#bbe2f6
+inside-clear-color=#b48862cc
+ring-clear-color=#ffd4b1
 bs-hl-color=#ffd2cc
 

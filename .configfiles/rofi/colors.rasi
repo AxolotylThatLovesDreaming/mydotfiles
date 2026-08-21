@@ -1,6 +1,6 @@
 * {
     transparent: #00000000;
-    bg:          #0f1512;
-    bg2:         #a1ecca;
+    bg:          #191113;
+    bg2:         #ffd0db;
     fg:          #ffffff;
 }
