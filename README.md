@@ -11,6 +11,7 @@ My config files for niri. Given below is a guide on how to install them to your 
 - [niri](https://github.com/niri-wm/niri)
 - [rofi](https://github.com/davatorium/rofi)
 - [starship](https://github.com/starship/starship)
+- [swaylock](https://github.com/jirutka/swaylock-effects)
 - [waybar](https://github.com/Alexays/Waybar)
 
 ## Setup Guide
